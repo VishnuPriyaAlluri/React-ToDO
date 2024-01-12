@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "taskname": "Swim",
+      "taskdescription": "Water",
+      "id": 1
+    },
+    {
+      "taskname": "Typing",
+      "taskdescription": "Data Entry",
+      "id": 2
+    },
+    {
+      "taskname": "Trainer",
+      "taskdescription": "Teaching",
+      "id": 3
+    },
+    {
+      "taskname": "Cricket",
+      "taskdescription": "Sports",
+      "id": 4
+    },
+    {
+      "taskname": "eating friend's lunch",
+      "taskdescription": "with full dedication",
+      "id": 6
+    },
+    {
+      "taskname": "going home",
+      "taskdescription": "feeling happy",
+      "id": 7
+    }
+  ]
+}

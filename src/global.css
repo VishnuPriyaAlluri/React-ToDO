@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+   
+}
+.loginpage,.homepage,.signuppage{
+    background-color: gainsboro;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+.login-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 117px;
+}
+#linktag{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    
+}
+.carts{
+    border: 2px solid black;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+    box-shadow: 5px 5px 9px 5px lightgray;
+    flex-wrap: wrap;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.btn-block{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.addBtn{
+    margin: 19px 0px 10px 714px;
+}
+#add-task{
+    text-decoration: none;
+    color: black;
+}
+.signup-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 41px;
+}
+.add-task-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+}
+#edit-task{
+    text-decoration: none;
+    color: black;
+}
+.logoblock{
+    margin-left: 78px;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: powderblue;
+}
+.menublock{
+    width: 750px;
+   
+    align-items: center;
+    margin-right: 130px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+     list-style: none;
+}
+.linktag{
+    text-decoration: none;
+}
+.logoimage{
+    height: 100px;
+   
+}
+
