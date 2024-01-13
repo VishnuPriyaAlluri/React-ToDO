@@ -10,6 +10,7 @@ import "./global.css"
 const App = () => {
   return (
     <Router>
+      <div className="mainpage">
           <Nav/>
            
             <Routes>
@@ -20,6 +21,7 @@ const App = () => {
                  <Route path='/edit/:id' element={<EditTask/>}/>
                  
             </Routes>
+            </div>
         </Router>
   )
 }
