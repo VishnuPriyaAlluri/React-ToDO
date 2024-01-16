@@ -18,6 +18,7 @@ const Login = () => {
         }
     }
   return (
+  <>
    <div className='loginpage'>
     <ToastContainer/>
     <form action="">
@@ -36,7 +37,10 @@ const Login = () => {
 
         </fieldset>
     </form>
+    
    </div>
+   <div className='emptydiv'></div>
+   </>
   )
 }
 

@@ -28,6 +28,7 @@ const EditTask = () => {
   }
 
   return (
+    <>
     <div>
       <form>
         <fieldset style={{textAlign:'center'}}>
@@ -43,6 +44,8 @@ const EditTask = () => {
         </fieldset>
       </form>
     </div>
+      <div className='dummydiv'></div>
+    </>
   )
 }
 

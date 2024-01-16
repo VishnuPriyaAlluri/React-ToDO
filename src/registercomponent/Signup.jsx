@@ -20,6 +20,7 @@ const Signup = () => {
           navigate("/")
     }
   return (
+    <>
     <div className='signuppage'>
       <form action="">
         <fieldset style={{textAlign:'center' , padding:"20px"}}>
@@ -41,6 +42,8 @@ const Signup = () => {
         </fieldset>
       </form>
     </div>
+      <div className='dummydiv'></div>
+    </>
   )
 }
 
